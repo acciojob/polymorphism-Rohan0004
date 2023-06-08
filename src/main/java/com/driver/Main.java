@@ -17,8 +17,8 @@ public class Main {
         Product p=new Product();
 
         //method overloading
-        System.out.println(p.product(4,5));
-        System.out.println(p.product(4,5,9));
-        System.out.println(p.product(5.3,9.4));
+        p.product(4,5);
+        p.product(4,5,9);
+        p.product(5.3,9.4);
     }
 }
